@@ -1,3 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+}
+
+body {
+    font-family: "Dosis", "Open Sans", sans-serif;
+    font-size: 16px;
+}
+button {
+    cursor: pointer;
+}
+
+.welcomescreen {
+    position: relative;
+}
+
+.leftside {
+    &__logo img {
+        position: absolute;
+        z-index: 3;
+        width: 50px;
+        margin-top: 25px;
+        margin-left: 315px;
+    }
+
+    &__text {
+        position: absolute;
+        z-index: 3;
+        color: white;
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 30vh;
+        margin-left: 12vw;
+        max-width: 40%;
+    }
+
+    &__text1 {
+        font-size: 16px;
+        max-width: 70%;
+        line-height: 4vh;
+    }
+}
+
+.rightside {
+    &__menubar ul {
+        position: absolute;
+        display: inline-block;
+        margin-right: 2vw;
+        z-index: 3;
+        right: 7vw;
+        margin-top: 3vh;
+        font-size: 14px;
+    }
+    &__menubar li {
+        display: inline-block;
+        padding: 15px;
+    }
+
+    &__menubar a {
+        text-decoration: none;
+        color: white;
+    }
+    &__menubar a:hover {
+        color: #f16522;
+    }
+
+    &__points {
+        position: absolute;
+        z-index: 3;
+        width: 3px;
+        font-size: 10px;
+        margin-left: 50vw;
+        margin-top: 50vh;
+    }
+    &__points i {
+        margin: 4px;
+    }
+    &__points a {
+        color: white;
+    }
+    &__points a:hover {
+        color: #f16522;
+    }
+
+    &__sqr {
+        position: absolute;
+        z-index: 3;
+        margin-left: 48%;
+        margin-top: 40%;
+    }
+}
+
+.background {
+    position: relative;
+    background-color: #28282e;
+    height: 985px;
+
+    &__img1 img {
+        position: absolute;
+        width: 50%;
+        height: 985px;
+        left: 0;
+        top: 0;
+        z-index: 2;
+    }
+
+    &__img2 img {
+        position: absolute;
+        right: 0;
+        opacity: 5%;
+    }
+}
+.clients {
+    border: solid 1px black;
+    border-right: none;
+    border-left: none;
+    box-shadow: 0 -1px 4px 1px black;
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 115px;
+    z-index: 2;
+
+    &__menu {
+        position: absolute;
+        font-size: 1.5em;
+        font-weight: bold;
+        background-color: #f8f8f8;
+        width: 35%;
+        padding: 17px;
+    }
+    &__menu h2 {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        margin-right: 15%;
+        margin-top: 10px;
+    }
+    &__menu p {
+        color: #f16522;
+        padding-top: 5px;
+        font-size: 13px;
+        font-family: "Open Sans";
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 36%;
+    }
+
+    &__menu i {
+        margin-left: 5px;
+        margin-top: 3px;
+    }
+
+    &__logos img {
+        position: absolute;
+        padding: 20px;
+        margin-left: 35%;
+        filter: grayscale(53);
+        opacity: 40%;
+    }
+}
+
+.hello {
+    height: 665px;
+    position: relative;
+    color: #3d3d3d;
+
+    &__img img {
+        position: absolute;
+        width: 100%;
+    }
+
+    &__h {
+        z-index: 2;
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 5%;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    &__h h3 {
+        text-transform: uppercase;
+    }
+
+    &__h p {
+        color: #f16522;
+    }
+
+    &__p {
+        z-index: 2;
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 13%;
+        margin-right: 5px;
+        font-size: 18px;
+        font-family: "Open Sans";
+        line-height: 30px;
+    }
+    .p1 {
+        margin-bottom: 30px;
+    }
+
+    &__btns a {
+        z-index: 2;
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 25%;
+        text-decoration: none;
+        color: #fff;
+        background-color: #3d3d3d;
+        padding: 20px;
+        font-family: "Open Sans";
+        letter-spacing: 5px;
+    }
 }
