@@ -103,7 +103,6 @@ button {
 }
 
 .background {
-    position: relative;
     background-color: #28282e;
     height: 985px;
 
@@ -122,53 +121,50 @@ button {
         opacity: 5%;
     }
 }
+// начало
 .clients {
     border: solid 1px black;
     border-right: none;
     border-left: none;
     box-shadow: 0 -1px 4px 1px black;
-    position: relative;
     background-color: white;
-    width: 100%;
-    height: 115px;
-    z-index: 2;
+    height: 12vh;
+    position: relative;
+    display: flex;
+    justify-content: start;
 
     &__menu {
-        position: absolute;
         font-size: 1.5em;
         font-weight: bold;
         background-color: #f8f8f8;
-        width: 35%;
-        padding: 17px;
+        padding-left: 15vw;
+        min-height: 100%;
     }
     &__menu h2 {
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
-        margin-right: 15%;
-        margin-top: 10px;
+        margin-right: 2vw;
+        margin-top: 2vh;
     }
     &__menu p {
         color: #f16522;
-        padding-top: 5px;
         font-size: 13px;
         font-family: "Open Sans";
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 36%;
     }
 
     &__menu i {
         margin-left: 5px;
         margin-top: 3px;
     }
+    &__logos {
+        align-self: center;
+    }
 
     &__logos img {
-        position: absolute;
+        z-index: 3;
         padding: 20px;
-        margin-left: 35%;
         filter: grayscale(53);
         opacity: 40%;
+        max-width: 100%;
+        padding-left: 3vw;
     }
 }
 
@@ -224,5 +220,16 @@ button {
         padding: 20px;
         font-family: "Open Sans";
         letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .clients {
+        &__menu {
+            font-size: 0.8em;
+        }
+        &__menu p {
+            font-size: 1em;
+        }
     }
 }
