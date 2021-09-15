@@ -41,10 +41,10 @@ button {
         z-index: 3;
         color: white;
         font-size: 40px;
-        line-height: 60px;
+        line-height: 2em;
         margin-top: 30vh;
         margin-left: 12vw;
-        max-width: 40%;
+        max-width: 35%;
     }
 
     &__text1 {
@@ -57,10 +57,9 @@ button {
 .rightside {
     &__menubar ul {
         position: absolute;
-        display: inline-block;
         margin-right: 2vw;
-        z-index: 3;
-        right: 7vw;
+        z-index: 2;
+        right: 5vw;
         margin-top: 3vh;
         font-size: 14px;
     }
@@ -213,17 +212,15 @@ button {
         margin-bottom: 30px;
     }
     &__btns {
-        display: block;
-        z-index: 2;
         position: absolute;
-        margin-left: 50%;
+        margin-left: 50vw;
         margin-top: 25%;
         text-decoration: none;
         color: #fff;
         background-color: #3d3d3d;
-        padding: 20px;
+        padding: 1.5vw;
         font-family: "Open Sans";
-        letter-spacing: 5px;
+        letter-spacing: 0.5vw;
     }
     &__btns a {
         text-decoration: none;
@@ -232,12 +229,59 @@ button {
 }
 
 @media screen and (max-width: 1420px) {
+    .rightside {
+        &__menubar ul {
+            font-size: 10px;
+        }
+    }
+    .leftside {
+        &__text {
+            font-size: 30px;
+            margin-top: 25vh;
+        }
+        &__text1 {
+            font-size: 12px;
+            max-width: 90%;
+        }
+    }
     .clients {
         &__menu {
             font-size: 0.8em;
         }
         &__menu p {
             font-size: 1em;
+        }
+    }
+    .hello {
+        position: absolute;
+        z-index: 3;
+        height: 665px;
+        color: #3d3d3d;
+        display: inline-flex;
+
+        &__h {
+            margin-top: 5vh;
+            font-size: 20px;
+        }
+        &__p {
+            margin-top: 13%;
+            margin-right: 5vw;
+            font-size: 14px;
+        }
+        &__btns {
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .rightside {
+        &__menubar ul {
+            font-size: 8px;
+        }
+    }
+    .leftside {
+        &__text {
+            font-size: 20px;
         }
     }
 }

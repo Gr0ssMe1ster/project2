@@ -42,10 +42,10 @@ button {
   z-index: 3;
   color: white;
   font-size: 40px;
-  line-height: 60px;
+  line-height: 2em;
   margin-top: 30vh;
   margin-left: 12vw;
-  max-width: 40%;
+  max-width: 35%;
 }
 
 .leftside__text1 {
@@ -56,10 +56,9 @@ button {
 
 .rightside__menubar ul {
   position: absolute;
-  display: inline-block;
   margin-right: 2vw;
-  z-index: 3;
-  right: 7vw;
+  z-index: 2;
+  right: 5vw;
   margin-top: 3vh;
   font-size: 14px;
 }
@@ -232,17 +231,15 @@ button {
 }
 
 .hello__btns {
-  display: block;
-  z-index: 2;
   position: absolute;
-  margin-left: 50%;
+  margin-left: 50vw;
   margin-top: 25%;
   text-decoration: none;
   color: #fff;
   background-color: #3d3d3d;
-  padding: 20px;
+  padding: 1.5vw;
   font-family: "Open Sans";
-  letter-spacing: 5px;
+  letter-spacing: 0.5vw;
 }
 
 .hello__btns a {
@@ -251,10 +248,48 @@ button {
 }
 
 @media screen and (max-width: 1420px) {
+  .rightside__menubar ul {
+    font-size: 10px;
+  }
+  .leftside__text {
+    font-size: 30px;
+    margin-top: 25vh;
+  }
+  .leftside__text1 {
+    font-size: 12px;
+    max-width: 90%;
+  }
   .clients__menu {
     font-size: 0.8em;
   }
   .clients__menu p {
     font-size: 1em;
+  }
+  .hello {
+    position: absolute;
+    z-index: 3;
+    height: 665px;
+    color: #3d3d3d;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .hello__h {
+    margin-top: 5vh;
+    font-size: 20px;
+  }
+  .hello__p {
+    margin-top: 13%;
+    margin-right: 5vw;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .rightside__menubar ul {
+    font-size: 8px;
+  }
+  .leftside__text {
+    font-size: 20px;
   }
 }
