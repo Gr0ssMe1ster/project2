@@ -27,8 +27,8 @@ button {
   position: absolute;
   z-index: 3;
   width: 50px;
-  margin-top: 25px;
-  margin-left: 315px;
+  margin-top: 3vh;
+  margin-left: 12vw;
 }
 
 .leftside__text {
@@ -93,31 +93,36 @@ button {
   color: #f16522;
 }
 
-.rightside__sqr {
+.rightside__sqr img {
   position: absolute;
   z-index: 3;
-  margin-left: 48%;
-  margin-top: 40%;
+  margin-left: 47.4vw;
+  margin-top: 80vh;
 }
 
 .background {
+  position: relative;
   background-color: #28282e;
-  height: 985px;
+  height: 100vh;
 }
 
 .background__img1 img {
   position: absolute;
   width: 50%;
   height: 985px;
-  left: 0;
-  top: 0;
   z-index: 2;
+  height: 100%;
+}
+
+.background__img2 {
+  display: block;
+  margin-left: 10vw;
 }
 
 .background__img2 img {
-  position: absolute;
-  right: 0;
   opacity: 5%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .clients {
@@ -168,7 +173,6 @@ button {
 }
 
 .clients__logos img {
-  z-index: 3;
   padding: 20px;
   -webkit-filter: grayscale(53);
           filter: grayscale(53);
@@ -178,18 +182,21 @@ button {
 }
 
 .hello {
+  position: absolute;
+  z-index: 3;
   height: 665px;
-  position: relative;
   color: #3d3d3d;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .hello__img img {
-  position: absolute;
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
 }
 
 .hello__h {
-  z-index: 2;
   position: absolute;
   margin-left: 50%;
   margin-top: 5%;
@@ -206,7 +213,6 @@ button {
 }
 
 .hello__p {
-  z-index: 2;
   position: absolute;
   margin-left: 50%;
   margin-top: 13%;
@@ -220,7 +226,8 @@ button {
   margin-bottom: 30px;
 }
 
-.hello__btns a {
+.hello__btns {
+  display: block;
   z-index: 2;
   position: absolute;
   margin-left: 50%;
@@ -231,6 +238,11 @@ button {
   padding: 20px;
   font-family: "Open Sans";
   letter-spacing: 5px;
+}
+
+.hello__btns a {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (max-width: 1420px) {
