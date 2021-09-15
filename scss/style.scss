@@ -23,7 +23,9 @@ button {
 }
 
 .welcomescreen {
+    display: flex;
     position: relative;
+    flex-direction: column;
 }
 
 .leftside {
@@ -115,7 +117,6 @@ button {
         height: 100%;
     }
     &__img2 {
-        display: block;
         margin-left: 10vw;
     }
     &__img2 img {
