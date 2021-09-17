@@ -3,7 +3,7 @@
   padding: 0;
   outline: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -25,8 +25,8 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .leftside__logo img {
@@ -136,7 +136,7 @@ button {
   border-right: none;
   border-left: none;
   -webkit-box-shadow: 0 -1px 4px 1px black;
-          box-shadow: 0 -1px 4px 1px black;
+  box-shadow: 0 -1px 4px 1px black;
   background-color: white;
   height: 12vh;
   position: relative;
@@ -144,8 +144,8 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
   overflow: hidden;
 }
 
@@ -175,14 +175,14 @@ button {
 
 .clients__logos {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .clients__logos img {
   padding: 20px;
   -webkit-filter: grayscale(53);
-          filter: grayscale(53);
+  filter: grayscale(53);
   opacity: 40%;
   max-width: 100%;
   padding-left: 3vw;
@@ -196,8 +196,8 @@ button {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .hello__img img {
