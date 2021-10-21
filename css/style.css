@@ -219,13 +219,15 @@ span {
   height: 615px;
   display: flex;
   color: #3d3d3d;
+  padding: 0 10%;
 }
 .services__iner {
-  padding-top: 95px;
-  min-width: 50vw;
   font-size: 25px;
   font-weight: bold;
-  padding-left: 300px;
+  flex-basis: 50%;
+  padding-top: 7vh;
+  padding-left: 8vw;
+  line-height: 1.5em;
 }
 .services__iner h2 {
   font-size: 50px;
@@ -243,27 +245,26 @@ span {
 .services__icons {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 315px;
+  flex-basis: 50%;
   overflow: hidden;
-}
-.services__icons img {
-  display: block;
-  margin: auto;
-  margin-top: 50%;
-  transform: translate(0, -50%);
+  justify-content: center;
+  align-items: center;
 }
 .services__icons_p {
   border: solid 1px;
   border-color: #e7eaed;
   height: 16vw;
   width: 16vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .services__icons p {
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 15px;
-  display: flex;
-  justify-content: center;
 }
 
 .recentwork {
