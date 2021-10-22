@@ -319,7 +319,7 @@ span {
   line-height: 2em;
 }
 
-.recenwork__content li:hover {
+.recenwork__content li:nth-child(8) {
   color: #f16522;
 }
 .recenwork__content span {
