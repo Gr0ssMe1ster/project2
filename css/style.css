@@ -163,7 +163,7 @@ header img {
 }
 
 .hello {
-  height: 665px;
+  height: 630px;
   color: #3d3d3d;
   background: url("/img/boy.jpg") no-repeat;
   background-size: 100%;
@@ -231,6 +231,7 @@ span {
 }
 .services__iner h2 {
   font-size: 50px;
+  line-height: 1.3em;
 }
 .services__iner h3 {
   text-transform: uppercase;
@@ -240,7 +241,7 @@ span {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
 }
 .services__icons {
   display: flex;
@@ -253,8 +254,8 @@ span {
 .services__icons_p {
   border: solid 1px;
   border-color: #e7eaed;
-  height: 16vw;
-  width: 16vw;
+  height: 17vw;
+  width: 17vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -264,7 +265,7 @@ span {
 .services__icons p {
   text-transform: uppercase;
   font-weight: 700;
-  margin-top: 15px;
+  margin-top: 1vh;
 }
 
 .recentwork {
@@ -318,8 +319,6 @@ span {
   line-height: 2em;
 }
 
-.recenwork__content li {
-}
 .recenwork__content li:hover {
   color: #f16522;
 }
