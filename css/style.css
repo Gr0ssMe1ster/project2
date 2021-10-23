@@ -203,7 +203,7 @@ span {
   text-decoration: none;
   color: #fff;
   background-color: #3d3d3d;
-  padding: 20px 20px 20px 30px;
+  padding: 1vw;
   font-family: "Open Sans";
   letter-spacing: 5px;
   width: 15vw;
@@ -213,6 +213,7 @@ span {
   margin-top: 5vh;
   font-size: 14px;
   font-weight: 400;
+  text-align: center;
 }
 
 .services {
@@ -272,18 +273,18 @@ span {
   height: 835px;
   background-color: #28282e;
 }
-.recenwork__inner {
-  padding-top: 5vh;
+.recentwork__inner {
+  padding-top: 8vh;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.recenwork__inner h2 {
+.recentwork__inner h2 {
   font-size: 40px;
   color: white;
   letter-spacing: 5px;
 }
-.recenwork__inner p {
+.recentwork__inner p {
   font-size: 14px;
   margin-top: 5vh;
   color: #7d7d8b;
@@ -291,44 +292,43 @@ span {
     "Helvetica Neue", sans-serif;
   line-height: 2em;
 }
-.recenwork__content {
+.recentwork__content {
   display: flex;
   flex-direction: column;
   background: url("/img/hands.png") no-repeat;
   height: 70%;
   background-position: 0 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
-.recenwork__content h3 {
+.recentwork__text {
+  width: 50vw;
+  height: 47vh;
+}
+.recentwork__content h3 {
   color: white;
   font-size: 34px;
-  margin-left: 50vw;
-  margin-top: 15vh;
+  padding-bottom: 2vh;
 }
-.recenwork__content p {
+.recentwork__content p {
   color: #7d7d8b;
-  margin-left: 50vw;
-  margin-top: 2vh;
 }
-.recenwork__content ul {
+.recentwork__content ul {
   color: #7d7d8b;
-  margin-left: 50vw;
   column-count: 2;
   list-style-type: none;
-  width: 25%;
   font-weight: 600;
   line-height: 2em;
+  width: 50%;
 }
 
-.recenwork__content li:nth-child(8) {
+.recentwork__content li:nth-child(8) {
   color: #f16522;
 }
-.recenwork__content span {
+.recentwork__content span {
   color: #42424a;
   font-size: 10px;
-  margin-left: 50vw;
   letter-spacing: 2px;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
 }
 
 @media screen and (max-width: 1420px) {
